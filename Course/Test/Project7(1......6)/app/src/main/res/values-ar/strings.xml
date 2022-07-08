@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">🅣🅞🅟</string>
+    <string name="t1">يمنح Top هذا الموقع للمستخدمين أفضل 20 برنامجًا في العالم ، ولكن كل ما عليك فعله هو كتابة اسم للبحث عن هذا المحتوى في حقل البحث.</string>
+    <string name="t2"> يمكنك استخدام هذا الموقع للبحث عن أي نظام تشغيل في تطبيق الكمبيوتر المحمول:
+        1_ويندويز
+        2_آبل
+        3_ماك
+        4_لينكس
+        5_هاكنتوش</string>
+    <string name="t3">وتطبيق الهاتف فقط أندويد</string>
+
+
+    <string name="username">اسم المستخدم:</string>
+    <string name="passsword">كلمة السر:</string>
+    <string name="log_in">تسجيل الدخول</string>
+    <string name="showB">مرحبا بعودتك</string>
+    <string name="showB1">أهلا بك</string>
+    <string name="showA">إلى تطبيقك 🅣🅞🅟</string>
+    <string name="back">عودة</string>
+
+
+    <string name="email">البريد الإلكتروني:</string>
+    <string name="confirm_password">تأكيد كلمة المرور:</string>
+    <string name="cancel">إلغاء</string>
+    <string name="send">إرسال</string>
+
+
+    <string name="search">بحث</string>
+    <string name="contactus">اتصل بنا</string>
+    <string name="signup">سجل</string>
+
+</resources>

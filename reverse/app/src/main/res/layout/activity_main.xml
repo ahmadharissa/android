@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/text2"
+        android:textColor="#00BCD4"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+    <Button
+        android:id="@+id/buttonid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="#F4F8F4"
+        android:text="@string/button1"
+        android:textColor="#00BCD4"
+        app:layout_constraintEnd_toStartOf="@+id/text3id"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toEndOf="@+id/inputid"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+    <EditText
+        android:id="@+id/inputid"
+        android:layout_width="144dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:background="#F8FAFA"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:shadowColor="#00BCD4"
+        android:textColor="#00BCD4"
+        android:textColorHighlight="#00BCD4"
+        android:textColorHint="#00BCD4"
+        android:textColorLink="#00BCD4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+    <TextView
+        android:id="@+id/text3id"
+        android:layout_width="149dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:textColor="#00BCD4"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/text1"
+        android:textColor="#00BCD4"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/reverse" />
+</androidx.constraintlayout.widget.ConstraintLayout>

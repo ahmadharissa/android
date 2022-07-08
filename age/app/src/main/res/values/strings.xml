@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">age</string>
+    <string name="name">Full_name</string>
+    <string name="age">Age</string>
+    <string name="go">GO</string>
+    <string name="text1">Hello my friend</string>
+    <string name="text2">Welcom to this apication whenever you want</string>
+    <string name="text3">PLease enter your information :</string>
+    <string name="mnu">Item</string>
+</resources>

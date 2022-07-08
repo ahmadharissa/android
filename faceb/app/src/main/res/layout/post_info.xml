@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    tools:context=".MainActivity.PostInfo">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvInfoPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivInfo"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/ic_launcher_foreground" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvInfoName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="ahmad harissa"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/tvInfoTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/txtPostTitle"
+                        android:textSize="16sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvInfoBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/tvInfoComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Comment:"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="150dp"
+        app:cardCornerRadius="20dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

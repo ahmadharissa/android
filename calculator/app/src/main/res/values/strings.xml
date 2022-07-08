@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="result">Result</string>
+    <string name="deff">Enter</string>
+    <string name="mode">%</string>
+    <string name="x">X</string>
+    <string name="division">÷</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="clear">clear</string>
+    <string name="todo">TODO</string>
+    <string name="calculator">Calculator</string>
+    <string name="pawer">X^</string>
+    <string name="pawer2">X^2</string>
+    <string name="vector">!</string>
+    <string name="radical">(√)</string>
+    <string name="positive">| |</string>
+    <string name="child">child</string>
+    <string name="for_children">for children</string>
+    <string name="show">show</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Full Name</string>
+    <string name="T2">your name is used to personalise your phone</string>
+    <string name="T1">Your Name</string>
+    <string name="fn">frist name</string>
+    <string name="ln">last name</string>
+    <string name="b1">Full Name</string>
+    <string name="b2"><![CDATA[>]]></string>
+    <string name="b3">new page</string>
+    <string name="b4">back</string>
+    <string name="T3">hahahahahaha</string>
+</resources>

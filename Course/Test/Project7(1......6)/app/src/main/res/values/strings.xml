@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">🅣🅞🅟</string>
+    <string name="t1">This website Top gives for users the best 20 programs in the World , But all you have to do is write a name to search for this content in the search field.Thank you</string>
+    <string name="t2">Can you use this website to searche any operating System in laptop app:
+        1_Windows
+        2_Apple
+        3_Mac
+        4_Linux
+        5_Hackintosh</string>
+    <string name="t3">and Phone app:
+        1_Android
+        2_Apple
+        3_Nokia</string>
+
+
+    <string name="username">Username:</string>
+    <string name="passsword">Passsword :</string>
+    <string name="log_in">log in</string>
+    <string name="showB">Welcome back</string>
+    <string name="showB1">Welcome</string>
+    <string name="showA">to your app 🅣🅞🅟</string>
+    <string name="back">back</string>
+
+
+    <string name="email">Email:</string>
+    <string name="confirm_password">Confirm Password:</string>
+    <string name="cancel">cancel</string>
+    <string name="send">send</string>
+
+
+    <string name="search">Search</string>
+    <string name="contactus">Contact us</string>
+    <string name="signup">Sign up</string>
+
+</resources>
